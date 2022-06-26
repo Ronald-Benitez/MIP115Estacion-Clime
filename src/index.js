@@ -30,5 +30,5 @@ io.on("connection", (socket) => {
   });
 });
 
-httServer.listen(3000 || process.env.PORT);
+httServer.listen(3000 || process.env.PORT || 8080);
 console.log("Server running on port 3000");

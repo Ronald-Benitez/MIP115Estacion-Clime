@@ -1,4 +1,7 @@
 body {
   background: beige;
-  height: 100vh;
+}
+
+.h1 {
+  color: black;
 }
